@@ -1,4 +1,5 @@
 import Navbar from "./navbar";
+import { Link } from "react-router-dom";
 import Ztellerlogo from "../assets/Ztellalogo.png";
 
 const Home = () => {
@@ -24,9 +25,11 @@ const Home = () => {
 
                     <div className="mt-[30px]">
                         <p>OR</p>
-                        <button className="bg-gray-300 px-3 hover:bg-gray-500 py-2 rounded-sm">
-                            Scan QR Code
-                        </button>
+                        <Link to="/scan">
+                            <button className="bg-gray-300 px-3 hover:bg-gray-500 py-2 rounded-sm">
+                                Scan QR Code
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
