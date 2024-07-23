@@ -7,7 +7,7 @@ const Home = () => {
             <div className="flex flex-col items-center h-[100vh] w-full">
                 <Navbar />
 
-                <div className="mt-[25%] w-full mx-auto text-center">
+                <div className="mt-[25vh] w-full mx-auto text-center">
                     <img src={Ztellerlogo} className="mx-auto w-[100px]" />
                     <form>
                         <input
